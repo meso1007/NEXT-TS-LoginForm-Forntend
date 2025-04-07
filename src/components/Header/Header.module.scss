@@ -13,3 +13,13 @@
     border-radius: 25px;
   }
 }
+@media (max-width: 480px) {
+  .header{
+    right: 20;
+    top: 20;
+  }
+  .menu {
+    width: 100vw;
+    height: 100vh;
+  }
+}

@@ -136,3 +136,16 @@
     text-decoration: underline;
   }
 }
+
+@media (max-width: 480px) {
+  .goBack {
+    font-size: 2rem;
+    padding: 0 1rem;
+  }
+    .formContainer {
+      padding: 3rem 2rem;
+    }
+    .footer {
+      font-size: 1.8rem;
+    }
+  }

@@ -23,6 +23,7 @@ const Hero: React.FC = () => {
           {mode === "hero" && (
             <motion.div
               key="hero"
+              className={styles.heroContainer}
               initial={{ opacity: 0, y: 100 }}
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, y: 100 }}

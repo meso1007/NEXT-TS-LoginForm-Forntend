@@ -25,6 +25,26 @@
     --foreground: #ededed;
   }
 }
+@media (max-width: 480px) {
+  html {
+    font-size: 14px; /* より小さいフォントサイズ */
+  }
+}
+
+/* タブレット用 */
+@media (max-width: 768px) {
+  html {
+    font-size: 15px; /* 中間のフォントサイズ */
+  }
+}
+
+/* 大きなスクリーン用 */
+@media (min-width: 1024px) {
+  html {
+    font-size: 18px; /* より大きなフォントサイズ */
+  }
+}
+
 
 body {
   background: var(--background);
