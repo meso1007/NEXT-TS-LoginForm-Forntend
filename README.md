@@ -2,6 +2,22 @@
 
 Progressify is a web application designed to help users track their lessons and progress in an organized and efficient way. The platform allows users to log in, sign up, and stay updated with their personal progress, all while providing a smooth and interactive user experience with animations powered by Framer Motion.
 
+## Live Demo
+Visit [https://progressify-theta.vercel.app/](https://progressify-theta.vercel.app/) to see the app in action.
+
+## Screenshots
+
+### Top Page
+<img src="public/images/README/top-page.png" width="600" />
+
+### Login Page
+<img src="public/images/README/login-page.png" width="600" />
+
+### Register Page
+<img src="public/images/README/register-page.png" width="600" />
+
+### Menu Open
+<img src="public/images/README/menu-open.png" width="600" />
 ## Features
 - **Responsive Design**: The application is built to adapt seamlessly across devices using CSS media queries and dynamic layouts.
 - **Authentication**: Users can register for an account and log in to access their personalized progress dashboard.
