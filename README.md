@@ -1,37 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Progressify
 
-## Getting Started
+Progressify is a web application designed to help users track their lessons and progress in an organized and efficient way. The platform allows users to log in, sign up, and stay updated with their personal progress, all while providing a smooth and interactive user experience with animations powered by Framer Motion.
 
-First, run the development server:
+## Features
+- **Responsive Design**: The application is built to adapt seamlessly across devices using CSS media queries and dynamic layouts.
+- **Authentication**: Users can register for an account and log in to access their personalized progress dashboard.
+- **Animated Transitions**: Smooth, visually appealing transitions and animations, created using Framer Motion, enhance user experience.
+- **Interactive Buttons**: Hover effects and animations are applied to interactive elements such as buttons to improve engagement.
+- **Image Backgrounds**: A visually rich layout with responsive images that fit and adapt to different screen sizes.
+  
+## Tech Stack
+- **Frontend**: React.js, Next.js, TypeScript
+- **Styling**: SCSS for modular and maintainable styling
+- **Animations**: Framer Motion for seamless animations and transitions
+- **State Management**: React hooks (useState) for managing component state
+- **Next.js Features**: Client-side rendering, dynamic imports
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## How to Run Locally
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Clone the repository**
+    ```bash
+    git clone https://github.com/yourusername/progressify.git
+    cd progressify
+    ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Install dependencies**
+    ```bash
+    npm install
+    ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Start the development server**
+    ```bash
+    npm run dev
+    ```
 
-## Learn More
+4. Open your browser and go to `http://localhost:3000` to view the app.
 
-To learn more about Next.js, take a look at the following resources:
+## Folder Structure
+- `components/`: Contains React components like the `Hero`, `LoginForm`, and `RegisterForm`.
+- `pages/`: Includes Next.js page files (e.g., `index.tsx`).
+- `public/`: Contains static assets such as images.
+- `styles/`: SCSS styling files for modular, responsive, and scalable design.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Responsive Design
+This project is optimized for various screen sizes, ensuring a consistent and smooth experience on mobile, tablet, and desktop devices. The layout adjusts based on the viewport width, ensuring the application is usable and aesthetically pleasing on all devices.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
+Feel free to fork this project and submit pull requests. If you encounter any issues or have suggestions for improvements, please open an issue on GitHub.
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# NEXT-TS-LoginForm-Forntend
+## License
+MIT License. See [LICENSE](LICENSE) for more details.
